@@ -1,21 +1,48 @@
 aid: kudos
 name: Kudos
-description: 'Kudos is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: credit. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Kudos is a consumer credit-card rewards and smart-shopping assistant operated
+  by Kudos Technologies, Inc., founded in 2021 by Tikue Anazodo and Ahmad Ismail. Its browser
+  extension and iOS/Android apps sit at online checkout and recommend which of a shopper''s
+  connected cards to use to maximize points, cash back, and card benefits. Kudos Boost pays
+  cashback at 15,000+ stores, redeemable as Amazon gift cards or PayPal cash, and the product
+  bundles free credit-score access, a wallet and credit-management hub, a best-card cheatsheet,
+  weekly insights scores, a Dream Wallet planner, and an Explore card-comparison and Test Drive
+  tool. Kudos is backed by QED Investors. As of July 2026 Kudos publishes no public developer
+  API, developer portal, OpenAPI specification, or SDKs; its only machine-readable public
+  surface is mobile app-association metadata at app.joinkudos.com.'
 url: https://raw.githubusercontent.com/api-evangelist/kudos/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.joinkudos.com/Promotional.jpg?v=1
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qed-investors
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Credit
+- Credit Cards
+- Rewards
+- Cashback
+- Fintech
+- Consumer Finance
+- Personal Finance
+- Browser Extension
+- Shopping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://joinkudos.com/
+  url: https://www.joinkudos.com
+- type: Support
+  url: https://support.joinkudos.com/en-US
+- type: Blog
+  url: https://www.joinkudos.com/blog
+- type: SignUp
+  url: https://app.joinkudos.com
+- type: TermsOfService
+  url: https://www.joinkudos.com/terms
+- type: PrivacyPolicy
+  url: https://www.joinkudos.com/privacy-policy
+- type: WellKnown
+  url: well-known/kudos-well-known.yml
+- type: DomainSecurity
+  url: security/kudos-domain-security.yml
+- type: LLMsTxt
+  url: llms/kudos-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
