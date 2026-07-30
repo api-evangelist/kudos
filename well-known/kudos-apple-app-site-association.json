@@ -1,0 +1,35 @@
+{
+    "webcredentials": {
+        "apps": [
+            "M8HG6BD8JB.com.joinkudos.kudos-mobile"
+        ]
+    },
+    "applinks": {
+        "apps": [],
+        "details": {
+            "M8HG6BD8JB.com.joinkudos.kudos-mobile": {
+                "paths": [
+                    "NOT /my-wallet/support",
+                    "NOT /logout",
+                    "NOT /mobile-safari",
+                    "NOT /mobile-safari-review",
+                    "NOT /mobile-safari-fail",
+                    "NOT /merchant-redirect",
+                    "NOT /survey",
+                    "NOT /blog",
+                    "NOT /blog/*",
+                    "NOT /blog-all",
+                    "NOT /blog-categories",
+                    "NOT /blog-categories/*",
+                    "NOT /shared-insights",
+                    "NOT /shared-insights/*",
+                    "NOT /card-offer",
+                    "NOT /card-offer/*",
+                    "NOT /lower-my-bills",
+                    "NOT /lower-my-bills/*",
+                    "*"
+                ]
+            }
+        }
+    }
+}

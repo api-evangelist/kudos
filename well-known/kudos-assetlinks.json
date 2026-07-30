@@ -1,0 +1,13 @@
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.joinkudos.kudos_mobile",
+            "sha256_cert_fingerprints": [
+                "D4:35:9B:DD:3E:07:8E:77:EE:FD:3E:34:6F:B4:13:98:80:3E:00:5C:5B:DF:BF:44:14:F8:E5:D8:03:8E:0F:9F",
+                "B3:77:6C:C5:29:5C:E8:C3:FC:41:51:A0:6F:6C:AE:A6:F2:CD:51:E3:1F:22:79:82:EE:95:45:1A:CA:F5:08:26"
+            ]
+        }
+    }
+]

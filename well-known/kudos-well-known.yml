@@ -1,0 +1,54 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of joinkudos.com / www.joinkudos.com / app.joinkudos.com
+notes: >-
+  www.joinkudos.com is a client-rendered single-page app that returns HTTP 200
+  with the same 5,366-byte HTML shell for every unknown path, so a 200 alone is
+  not evidence of a document. Only responses returning a real content type
+  (application/json) are recorded as present below; SPA catch-all responses are
+  recorded as soft_404.
+hosts:
+- host: https://app.joinkudos.com
+  documents:
+  - path: /.well-known/apple-app-site-association
+    status: 200
+    content_type: application/json
+    file: kudos-apple-app-site-association.json
+  - path: /.well-known/assetlinks.json
+    status: 200
+    content_type: application/json
+    file: kudos-assetlinks.json
+  - path: /.well-known/security.txt
+    status: soft_404
+  - path: /.well-known/openid-configuration
+    status: soft_404
+  - path: /.well-known/api-catalog
+    status: soft_404
+  - path: /llms.txt
+    status: soft_404
+- host: https://www.joinkudos.com
+  documents:
+  - path: /.well-known/security.txt
+    status: soft_404
+  - path: /.well-known/openid-configuration
+    status: soft_404
+  - path: /.well-known/oauth-authorization-server
+    status: soft_404
+  - path: /.well-known/api-catalog
+    status: soft_404
+  - path: /.well-known/ai-plugin.json
+    status: soft_404
+  - path: /llms.txt
+    status: soft_404
+apps:
+- platform: ios
+  bundle_id: com.joinkudos.kudos-mobile
+  team_id: M8HG6BD8JB
+  name: 'Kudos: Put Your Wallet to Work'
+  seller: Kudos Technologies, Inc.
+  url: https://apps.apple.com/us/app/kudos-put-your-wallet-to-work/id6443548838
+  source: https://itunes.apple.com/lookup?bundleId=com.joinkudos.kudos-mobile
+- platform: android
+  package_name: com.joinkudos.kudos_mobile
+  url: https://play.google.com/store/apps/details?id=com.joinkudos.kudos_mobile
+  source: https://app.joinkudos.com/.well-known/assetlinks.json
