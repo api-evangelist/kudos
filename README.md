@@ -64,16 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kudos is a consumer credit-card rewards and smart-shopping assistant operated by Kudos Technologies, Inc., founded in 2021 by Tikue Anazodo and Ahmad Ismail. Its browser extension and iOS/Android apps sit at online checkout and recommend which of a shopper's connected cards to use to maximize points, cash back, and card benefits. Kudos Boost pays cashback at 15,000+ stores, redeemable as Amazon gift cards or PayPal cash, and the product bundles free credit-score access, a wallet and credit-management hub, a best-card cheatsheet, weekly insights scores, a Dream Wallet planner, and an Explore card-comparison and Test Drive tool.
+Kudos is a consumer credit-card rewards and smart-shopping assistant operated by Kudos Technologies, Inc., founded in 2021 by Tikue Anazodo and Ahmad Ismail. Its browser extension and iOS/Android apps sit at online checkout and recommend which of a shopper's connected cards to use to maximize points, cash back, and card benefits. Kudos Boost pays cashback at 15,000+ stores, redeemable as Amazon gift cards or PayPal cash, and the product bundles free credit-score access, a wallet and credit-management hub, a best-card cheatsheet, weekly insights scores, a Dream Wallet planner, and an Explore card-comparison and Test Drive tool. Kudos is backed by QED Investors. As of July 2026 Kudos publishes no public developer API, developer portal, OpenAPI specification, or SDKs; its only machine-readable public surface is mobile app-association metadata at app.joinkudos.com.
 
-Backed by: qed-investors — https://www.joinkudos.com
+**Areas:** Company · Credit · Credit Cards · Rewards · Cashback · Fintech · Consumer Finance · Personal Finance · Browser Extension · Shopping
 
-## API surface
+## Kudos on APIs.io
 
-As of July 2026 Kudos publishes **no public developer API**, developer portal, OpenAPI specification, or SDKs. Its only machine-readable public surface is mobile app-association metadata on `app.joinkudos.com`.
+Everything profiled for Kudos is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kudos/](https://apis.io/providers/kudos/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-- `well-known/kudos-well-known.yml` — well-known probe index (+ raw `apple-app-site-association` and `assetlinks.json`)
-- `security/kudos-domain-security.yml` — TLS/HSTS/DNSSEC/CAA/SPF/DMARC probe
-- `llms/kudos-llms.txt` — generated llms.txt for the public surface
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kudos Domain Security](https://apis.io/security/kudos/kudos-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.joinkudos.com)
+- [Sign up](https://app.joinkudos.com)
+- [Support](https://support.joinkudos.com/en-US)
+- [Blog](https://www.joinkudos.com/blog)
+- [Terms of service](https://www.joinkudos.com/terms)
+- [Privacy policy](https://www.joinkudos.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.5** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kudos/](https://apis.io/providers/kudos/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kudos: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kudos/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
